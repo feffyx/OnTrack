@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F307A3F52B875603008553FA /* routeTrainTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307A3F42B875603008553FA /* routeTrainTextView.swift */; };
+		F307A3F92B875A4E008553FA /* calculatedRouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307A3F82B875A4E008553FA /* calculatedRouteView.swift */; };
+		F307A3FB2B875A60008553FA /* SpeechViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307A3FA2B875A60008553FA /* SpeechViewModel.swift */; };
+		F307A3FD2B875A6C008553FA /* ButtonBg.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307A3FC2B875A6C008553FA /* ButtonBg.swift */; };
+		F307A3FF2B875A75008553FA /* ConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307A3FE2B875A75008553FA /* ConfirmView.swift */; };
+		F307A4012B875A79008553FA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307A4002B875A79008553FA /* HomeView.swift */; };
+		F307A4032B875A82008553FA /* summaryBusTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307A4022B875A82008553FA /* summaryBusTextView.swift */; };
+		F307A4052B875A86008553FA /* summaryBusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307A4042B875A86008553FA /* summaryBusView.swift */; };
+		F307A4072B875A8D008553FA /* summaryFootTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307A4062B875A8D008553FA /* summaryFootTextView.swift */; };
+		F307A40B2B875A99008553FA /* summaryTrainTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307A40A2B875A99008553FA /* summaryTrainTextView.swift */; };
+		F307A40D2B875AA9008553FA /* summaryTrainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307A40C2B875AA9008553FA /* summaryTrainView.swift */; };
+		F307A40F2B875ACA008553FA /* summaryFootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307A40E2B875ACA008553FA /* summaryFootView.swift */; };
+		F307A4112B875ADB008553FA /* routeFootTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307A4102B875ADB008553FA /* routeFootTextView.swift */; };
+		F307A4132B875AE0008553FA /* routeBusTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307A4122B875AE0008553FA /* routeBusTextView.swift */; };
+		F3325BED2B83902D00D9EFF8 /* SpeechFedericaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3325BEC2B83902D00D9EFF8 /* SpeechFedericaApp.swift */; };
+		F3325BEF2B83902D00D9EFF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3325BEE2B83902D00D9EFF8 /* ContentView.swift */; };
+		F3325BF12B83902E00D9EFF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3325BF02B83902E00D9EFF8 /* Assets.xcassets */; };
+		F3325BF42B83902E00D9EFF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3325BF32B83902E00D9EFF8 /* Preview Assets.xcassets */; };
+		F36ECA042B8396D4006A5DC9 /* MainNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36ECA012B8396D4006A5DC9 /* MainNavigation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F307A3F42B875603008553FA /* routeTrainTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = routeTrainTextView.swift; sourceTree = "<group>"; };
+		F307A3F82B875A4E008553FA /* calculatedRouteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = calculatedRouteView.swift; path = "../../../Apple Foundation/OnTrack 11.31.45/OnTrack/calculatedRouteView.swift"; sourceTree = "<group>"; };
+		F307A3FA2B875A60008553FA /* SpeechViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpeechViewModel.swift; path = "../../../Apple Foundation/OnTrack 11.31.45/OnTrack/Model/SpeechViewModel.swift"; sourceTree = "<group>"; };
+		F307A3FC2B875A6C008553FA /* ButtonBg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonBg.swift; path = "../../../../Apple Foundation/OnTrack 11.31.45/OnTrack/Helpers/ButtonBg.swift"; sourceTree = "<group>"; };
+		F307A3FE2B875A75008553FA /* ConfirmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfirmView.swift; path = "../../../Apple Foundation/OnTrack 11.31.45/OnTrack/ConfirmView.swift"; sourceTree = "<group>"; };
+		F307A4002B875A79008553FA /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = "../../../Apple Foundation/OnTrack 11.31.45/OnTrack/HomeView.swift"; sourceTree = "<group>"; };
+		F307A4022B875A82008553FA /* summaryBusTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = summaryBusTextView.swift; path = "../../../Apple Foundation/OnTrack 11.31.45/OnTrack/summaryBusTextView.swift"; sourceTree = "<group>"; };
+		F307A4042B875A86008553FA /* summaryBusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = summaryBusView.swift; path = "../../../Apple Foundation/OnTrack 11.31.45/OnTrack/summaryBusView.swift"; sourceTree = "<group>"; };
+		F307A4062B875A8D008553FA /* summaryFootTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = summaryFootTextView.swift; path = "../../../Apple Foundation/OnTrack 11.31.45/OnTrack/summaryFootTextView.swift"; sourceTree = "<group>"; };
+		F307A40A2B875A99008553FA /* summaryTrainTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = summaryTrainTextView.swift; path = "../../../Apple Foundation/OnTrack 11.31.45/OnTrack/summaryTrainTextView.swift"; sourceTree = "<group>"; };
+		F307A40C2B875AA9008553FA /* summaryTrainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = summaryTrainView.swift; path = "../../../Apple Foundation/OnTrack 11.31.45/OnTrack/summaryTrainView.swift"; sourceTree = "<group>"; };
+		F307A40E2B875ACA008553FA /* summaryFootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = summaryFootView.swift; path = "../../../Apple Foundation/OnTrack 11.31.45/OnTrack/summaryFootView.swift"; sourceTree = "<group>"; };
+		F307A4102B875ADB008553FA /* routeFootTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = routeFootTextView.swift; path = "../../../Apple Foundation/OnTrack 11.31.45/OnTrack/routeFootTextView.swift"; sourceTree = "<group>"; };
+		F307A4122B875AE0008553FA /* routeBusTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = routeBusTextView.swift; path = "../../../Apple Foundation/OnTrack 11.31.45/OnTrack/routeBusTextView.swift"; sourceTree = "<group>"; };
+		F3325BE92B83902D00D9EFF8 /* SpeechFederica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechFederica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3325BEC2B83902D00D9EFF8 /* SpeechFedericaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechFedericaApp.swift; sourceTree = "<group>"; };
+		F3325BEE2B83902D00D9EFF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3325BF02B83902E00D9EFF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3325BF32B83902E00D9EFF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F36EC9FD2B8395C4006A5DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F36ECA012B8396D4006A5DC9 /* MainNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3325BE62B83902D00D9EFF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3325BE02B83902D00D9EFF8 = {
+			isa = PBXGroup;
+			children = (
+				F3325BEB2B83902D00D9EFF8 /* SpeechFederica */,
+				F3325BEA2B83902D00D9EFF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3325BEA2B83902D00D9EFF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3325BE92B83902D00D9EFF8 /* SpeechFederica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3325BEB2B83902D00D9EFF8 /* SpeechFederica */ = {
+			isa = PBXGroup;
+			children = (
+				F36EC9FD2B8395C4006A5DC9 /* Info.plist */,
+				F3325BEC2B83902D00D9EFF8 /* SpeechFedericaApp.swift */,
+				F36ECA012B8396D4006A5DC9 /* MainNavigation.swift */,
+				F36EC9FF2B8396B4006A5DC9 /* View */,
+				F36EC9FE2B8396A7006A5DC9 /* Models */,
+				F3325BF02B83902E00D9EFF8 /* Assets.xcassets */,
+				F3325BF22B83902E00D9EFF8 /* Preview Content */,
+			);
+			path = SpeechFederica;
+			sourceTree = "<group>";
+		};
+		F3325BF22B83902E00D9EFF8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3325BF32B83902E00D9EFF8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F36EC9FE2B8396A7006A5DC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F307A3FA2B875A60008553FA /* SpeechViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F36EC9FF2B8396B4006A5DC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3325BEE2B83902D00D9EFF8 /* ContentView.swift */,
+				F307A4002B875A79008553FA /* HomeView.swift */,
+				F307A3FE2B875A75008553FA /* ConfirmView.swift */,
+				F307A3F82B875A4E008553FA /* calculatedRouteView.swift */,
+				F307A4042B875A86008553FA /* summaryBusView.swift */,
+				F307A40C2B875AA9008553FA /* summaryTrainView.swift */,
+				F307A40E2B875ACA008553FA /* summaryFootView.swift */,
+				F307A4022B875A82008553FA /* summaryBusTextView.swift */,
+				F307A40A2B875A99008553FA /* summaryTrainTextView.swift */,
+				F307A4062B875A8D008553FA /* summaryFootTextView.swift */,
+				F307A4122B875AE0008553FA /* routeBusTextView.swift */,
+				F307A3F42B875603008553FA /* routeTrainTextView.swift */,
+				F307A4102B875ADB008553FA /* routeFootTextView.swift */,
+				F36ECA0A2B839CB3006A5DC9 /* Helpers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F36ECA0A2B839CB3006A5DC9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F307A3FC2B875A6C008553FA /* ButtonBg.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3325BE82B83902D00D9EFF8 /* SpeechFederica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3325BF72B83902E00D9EFF8 /* Build configuration list for PBXNativeTarget "SpeechFederica" */;
+			buildPhases = (
+				F3325BE52B83902D00D9EFF8 /* Sources */,
+				F3325BE62B83902D00D9EFF8 /* Frameworks */,
+				F3325BE72B83902D00D9EFF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechFederica;
+			productName = SpeechFederica;
+			productReference = F3325BE92B83902D00D9EFF8 /* SpeechFederica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3325BE12B83902D00D9EFF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F3325BE82B83902D00D9EFF8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F3325BE42B83902D00D9EFF8 /* Build configuration list for PBXProject "SpeechFederica" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3325BE02B83902D00D9EFF8;
+			productRefGroup = F3325BEA2B83902D00D9EFF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3325BE82B83902D00D9EFF8 /* SpeechFederica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3325BE72B83902D00D9EFF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3325BF42B83902E00D9EFF8 /* Preview Assets.xcassets in Resources */,
+				F3325BF12B83902E00D9EFF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3325BE52B83902D00D9EFF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3325BEF2B83902D00D9EFF8 /* ContentView.swift in Sources */,
+				F307A3FB2B875A60008553FA /* SpeechViewModel.swift in Sources */,
+				F307A4032B875A82008553FA /* summaryBusTextView.swift in Sources */,
+				F307A4072B875A8D008553FA /* summaryFootTextView.swift in Sources */,
+				F307A40B2B875A99008553FA /* summaryTrainTextView.swift in Sources */,
+				F307A4112B875ADB008553FA /* routeFootTextView.swift in Sources */,
+				F3325BED2B83902D00D9EFF8 /* SpeechFedericaApp.swift in Sources */,
+				F307A40D2B875AA9008553FA /* summaryTrainView.swift in Sources */,
+				F307A3FD2B875A6C008553FA /* ButtonBg.swift in Sources */,
+				F36ECA042B8396D4006A5DC9 /* MainNavigation.swift in Sources */,
+				F307A4052B875A86008553FA /* summaryBusView.swift in Sources */,
+				F307A3F92B875A4E008553FA /* calculatedRouteView.swift in Sources */,
+				F307A40F2B875ACA008553FA /* summaryFootView.swift in Sources */,
+				F307A3F52B875603008553FA /* routeTrainTextView.swift in Sources */,
+				F307A3FF2B875A75008553FA /* ConfirmView.swift in Sources */,
+				F307A4012B875A79008553FA /* HomeView.swift in Sources */,
+				F307A4132B875AE0008553FA /* routeBusTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F3325BF52B83902E00D9EFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3325BF62B83902E00D9EFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3325BF82B83902E00D9EFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeechFederica/Preview Content\"";
+				DEVELOPMENT_TEAM = M6T8JY8HG3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeechFederica/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OnTrack;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Richiesta accesso al riconoscimento vocale.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Richiesta accesso al microfono per il riconoscimento vocale. ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziaco.SpeechFederica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3325BF92B83902E00D9EFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeechFederica/Preview Content\"";
+				DEVELOPMENT_TEAM = M6T8JY8HG3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeechFederica/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OnTrack;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Richiesta accesso al riconoscimento vocale.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Richiesta accesso al microfono per il riconoscimento vocale. ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziaco.SpeechFederica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3325BE42B83902D00D9EFF8 /* Build configuration list for PBXProject "SpeechFederica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3325BF52B83902E00D9EFF8 /* Debug */,
+				F3325BF62B83902E00D9EFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3325BF72B83902E00D9EFF8 /* Build configuration list for PBXNativeTarget "SpeechFederica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3325BF82B83902E00D9EFF8 /* Debug */,
+				F3325BF92B83902E00D9EFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3325BE12B83902D00D9EFF8 /* Project object */;
+}
